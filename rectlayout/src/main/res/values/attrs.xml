@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--矩形-->
+    <declare-styleable name="RectLayout">
+        <attr name="scale" format="float" />
+        <attr name="mode" format="enum">
+            <enum name="width" value="1" />
+            <enum name="height" value="2" />
+        </attr>
+    </declare-styleable>
+    <!--含ImageView的矩形-->
+    <declare-styleable name="RectImageLayout">
+        <attr name="src" format="reference" />
+    </declare-styleable>
+</resources>
